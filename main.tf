@@ -1,6 +1,3 @@
-# Usage
-### Copy paste below code and update the config
-```
 module "helm-app" {
   source      = "./appmodule"
   name        = "terraform-helm-app"
@@ -14,13 +11,7 @@ image:
   pullPolicy: IfNotPresent
   tag: "latest"
 
+
+
   EOF
 }
-
-```
-
-### Run the following commands
-``` 
-terraform init
-terraform apply
-```
